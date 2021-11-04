@@ -1,0 +1,19 @@
+.App__container {
+  background-color: black;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.App__navbar {
+  /* height: 25px; */
+  width: 100%;
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  padding-bottom: 5px;
+}
+.App__navbar > img {
+    height: 15px;
+    object-fit: contain;
+}

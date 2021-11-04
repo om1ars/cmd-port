@@ -1,0 +1,13 @@
+.App__container {
+  background-color: black;
+  min-height: 100vh;
+  overflow-y: ;
+}
+.App__navbar {
+  /* height: 25px; */
+  width: 100%;
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

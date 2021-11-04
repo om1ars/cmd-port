@@ -1,0 +1,43 @@
+.App__container {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.App__navbar {
+  /* height: 25px; */
+  width: 100%;
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  padding-bottom: 5px;
+  align-items: center;
+}
+.App__navbar > h5 {
+  color: black;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.left > img {
+  height: 15px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.app__context > p {
+  font-weight: 300;
+}
+.app__context > h5 {
+  margin-top: 12px;
+  font-weight: 300;
+}
+
+.app__context > h5> input {
+    border: none;
+    outline: none;
+    background-color: black;
+}

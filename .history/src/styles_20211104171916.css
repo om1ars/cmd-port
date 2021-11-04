@@ -1,0 +1,123 @@
+.App__container {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+}
+.App__navbar {
+  /* height: 25px; */
+  width: 99%;
+  padding-right: 25px;
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  padding-bottom: 5px;
+  align-items: center;
+}
+.App__navbar > h5 {
+  color: black;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.left > img {
+  height: 15px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.app__context > p {
+  font-weight: 300;
+}
+.app__context > h5 {
+  margin-top: 12px;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 80%;
+  background-color: black;
+}
+input {
+  color: yellow;
+  margin-left: 3px;
+}
+button {
+  display: none;
+}
+.app__context > h5 {
+  display: flex;
+}
+.app__context > p > span {
+  color: yellow;
+  font-weight: 400;
+}
+.App__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.please {
+  color: yellow;
+  font-weight: 400;
+}
+
+.second__layer {
+  display: flex;
+  flex-direction: column;
+}
+.second__layer > p > span {
+  color: yellow;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.second__layer > h5 {
+  margin-top: 25px;
+}
+.shrink {
+  width: 800px;
+  min-height: 500px;
+  margin: auto;
+}
+.close {
+  display: none;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  max-height: 200px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 0.3;
+}
+.icons > div > img {
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.icons > div:hover {
+  background-color: gray;
+}
+.windows {
+  /* margin-right: 20px; */
+}
+
+.app {
+  position: relative;
+}

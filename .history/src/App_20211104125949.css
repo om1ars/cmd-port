@@ -1,0 +1,9 @@
+.App__container {
+  background-color: black;
+  min-height: 100vh;
+}
+.App__navbar {
+  height: 25px;
+  width: 100%;
+  
+}
